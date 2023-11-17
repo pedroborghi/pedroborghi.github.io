@@ -1,0 +1,39 @@
+body {
+    background-color: lightgrey;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: darkgrey;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional styles can be added for main content and other elements */
