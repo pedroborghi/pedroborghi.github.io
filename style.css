@@ -13,10 +13,11 @@ header, footer {
 
 .logo {
     float: left;
-    padding: 10px 10px;
+    padding: 10px 0px;
     font-size: 30px;
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 
 nav {
