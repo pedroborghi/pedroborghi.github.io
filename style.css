@@ -19,6 +19,14 @@ header, footer {
     color: white;
 }
 
+.logo a {
+    float: left;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
 nav {
     text-align: center;
     margin: 0 auto;
