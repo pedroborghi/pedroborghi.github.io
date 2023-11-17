@@ -1,13 +1,13 @@
 body {
-    background-color: white; /* Changed from lightgrey to white */
+    background-color: white;
     margin: 0;
-    font-family: 'Trebuchet MS', sans-serif; /* Changed font to Trebuchet MS */
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 header, footer {
-    background-color: darkgrey;
-    color: black;
-    padding: 10px 0;
+    background-color: #333333; /* Changed to a darker shade of grey */
+    color: white;
+    padding: 20px 0; /* Increased padding for larger size */
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ nav {
 
 nav a {
     margin: 0 15px;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
 }
