@@ -7,17 +7,16 @@ body {
 header, footer {
     background-color: #333333; /* Changed to a darker shade of grey */
     color: white;
-    padding: 20px 0; /* Increased padding for larger size */
+    padding: 0px 0px;
     text-align: center;
 }
 
 .logo {
     float: left;
     padding: 10px 0px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
-    text-decoration: none;
 }
 
 nav {
