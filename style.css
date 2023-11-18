@@ -13,15 +13,7 @@ header, footer {
 
 .logo {
     float: left;
-    padding: 10px 0px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.logo a {
-    float: left;
-    padding: 10px 0px;
+    padding: 0px 0px;
     font-size: 20px;
     font-weight: bold;
     color: white;
