@@ -7,7 +7,7 @@ body {
 header, footer {
     background-color: #333333; /* Changed to a darker shade of grey */
     color: white;
-    padding: 30px 0px;
+    padding: 20px 0px;
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ nav a {
 footer {
     position: fixed;
     bottom: 0;
-    width: 75%;
+    width: 100%;
 }
 
 /* Additional styles can be added for main content and other elements */
