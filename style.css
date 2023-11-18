@@ -13,7 +13,7 @@ header, footer {
 
 .logo {
     float: left;
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-size: 28px;
     font-weight: bold;
     color: white;
@@ -34,7 +34,7 @@ nav a {
 footer {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 75%;
 }
 
 /* Additional styles can be added for main content and other elements */
