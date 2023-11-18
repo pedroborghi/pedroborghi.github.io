@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    margin: 0px;
+    margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
@@ -13,8 +13,6 @@ header, footer {
 
 .logo {
     float: left;
-    padding: 10px 10px;
-    font-size: 28px;
     font-weight: bold;
     color: white;
 }
