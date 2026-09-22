@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Academic Portfolio"
+description = "A responsive static personal and academic portfolio for electronic and biomedical engineering, with speech tools, project pages, resources, and a modal blog experience."
+version = "1.0.0"
+id = "artifacts/academic-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20097
+
+[services.development]
+run = "pnpm --filter @workspace/academic-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/academic-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/academic-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20097"
+BASE_PATH = "/"
