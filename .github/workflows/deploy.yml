@@ -38,7 +38,7 @@ jobs:
       - name: Build
         env:
           BASE_PATH: /
-        run: pnpm run build
+        run: pnpm --filter "./artifacts/academic-portfolio" run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
