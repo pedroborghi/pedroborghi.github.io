@@ -38,6 +38,7 @@ jobs:
       - name: Build
         env:
           BASE_PATH: /
+          PORT: 5173
         run: pnpm --filter "./artifacts/academic-portfolio" run build
 
       - name: Upload artifact
