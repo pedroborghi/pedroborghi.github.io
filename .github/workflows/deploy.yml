@@ -44,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./artifacts/academic-portfolio/dist
+          path: ./artifacts/academic-portfolio/dist/public
 
   deploy:
     environment:
